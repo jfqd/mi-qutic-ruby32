@@ -18,7 +18,7 @@ ruby32
 ruby32-passenger
 ruby32-mysql2
 ruby32-puma
-nginx2
+nginx
 ap24-ruby32-passenger
 ap24-usdt
 #jemalloc
