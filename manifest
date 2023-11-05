@@ -1,0 +1,8 @@
+name="qutic-ruby32"
+organization="qutic development"
+brand="Ruby 3.2 Instance"
+version="20230910.0"
+description="qutic ruby 3.2 image"
+homepage="https://github.com/jfqd/mi-qutic-ruby32"
+users="root admin ruby"
+base="1b5e0248-7900-11ee-9147-0b17720e6ab6"
