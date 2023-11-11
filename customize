@@ -32,6 +32,7 @@ cat >> /home/ruby/.bash_history << EOF
 #`date +'%s'`
 cd /home/ruby/www/current
 EOF
+chown ruby:ruby /home/ruby/.bash_history
 
 mkdir -p /home/ruby/www/releases
 mkdir -p /home/ruby/www/shared/config
@@ -67,6 +68,8 @@ npm i -g @squoosh/cli
 echo "* Add commands to bash-history";
 cat >> /root/.bash_history << EOF
 /lib/svc/bin/svc.configd 
+tail -f /var/log/http/*
+svcadm restart apache
 EOF
 
 # Clean up
