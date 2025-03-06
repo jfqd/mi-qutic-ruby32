@@ -1,11 +1,11 @@
 {
   "name":         "qutic-ruby32",
-  "version":      "20230910.1",
+  "version":      "20230910.2",
   "description":  "qutic ruby 3.2 image",
   "organization": "qutic development",
   "brand":        "Ruby 3.2 Instance",
   "homepage":     "https://github.com/jfqd/mi-qutic-ruby32",
-  "base":         "1b5e0248-7900-11ee-9147-0b17720e6ab6",
+  "base":         "58b34c56-bbe5-11ef-a355-17294b2dd3e7",
   "customer_metadata": {
     "admin_authorized_keys":   {"type": "text", "description": "SSH public authorized key(s) for the admin user"},
     "ruby_authorized_keys":    {"type": "text", "description": "SSH public authorized key(s) for the ruby user"},
