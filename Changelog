@@ -1,5 +1,9 @@
 # Changelog
 
+## 20230910.2 - 2025-03-06
+
+* use new base image
+
 ## 20230910.1 - 2023-11-09
 
 * remove ruby31
